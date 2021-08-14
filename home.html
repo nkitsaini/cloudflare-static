@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>NKit</title>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<style>
+		* {
+			box-sizing: border-box;
+		}
+
+		body {
+			background-color: #f3f3f3;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+			font-family: 'Roboto Mono', monospace;
+		}
+
+		#about {
+			padding-top: 20vh;
+			width: fit-content;
+		}
+		span {
+			font-family: 'Courier New', Courier, monospace;
+			font-size: 2rem;
+		}
+
+		p {
+			padding-top: 80px;
+			line-height: 2rem;
+			font-size: 1rem;
+			max-width: 50vw;
+		}
+
+		@media only screen and (max-width: 600px) {
+			p {
+				font-size: 0.8rem;
+				max-width: 80vw;
+			}
+		}
+
+		a {
+			text-decoration: none;
+			color: rgba(70, 70, 200);
+		}	
+		#contact-span {
+			font-size: 0.9rem;
+		}
+	</style>
+</head>
+<body>
+	<div id="about">
+		<span> Hey, Ankit here</span>
+		<br/>
+		<p>I am a Software Engineer and I love to train machines.<br>
+		Currently working at <a href="https://www.paveai.com">Pave AI</a><br><br>
+		<span id="contact-span">More at <a id="contact" href="https://www.linkedin.com/in/nkitsaini">LinkedIn</a></span>
+			
+		</p>
+	</div>
+</body>
+</html>
