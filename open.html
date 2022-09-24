@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>NKit Directory</title>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<style>
+		* {
+			box-sizing: border-box;
+		}
+
+		body {
+			background-color: #f3f3f3;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+			font-family: 'Roboto Mono', monospace;
+		}
+
+		#about {
+			padding-top: 20vh;
+			width: fit-content;
+		}
+
+		span {
+			font-family: 'Courier New', Courier, monospace;
+			font-size: 2rem;
+		}
+
+		p {
+			padding-top: 80px;
+			line-height: 2rem;
+			font-size: 1rem;
+			max-width: 50vw;
+		}
+
+		@media only screen and (max-width: 600px) {
+			p {
+				font-size: 0.8rem;
+				max-width: 80vw;
+			}
+		}
+
+		a {
+			text-decoration: none;
+			color: rgba(70, 70, 200);
+		}
+
+		#extra-span {
+			font-size: 0.9rem;
+		}
+	</style>
+</head>
+
+<body>
+	<div id="about">
+		<span> Wander through <a href="https://nkit.dev"> nkit.dev </a></span>
+		<br>
+		<br>
+		<div>
+			<li> <a href="https://send.nkit.dev">Nkit Send</a> </li>
+			<li> <a href="https://python.nkit.dev"> Python IDE </a> </li>
+			<li> <a href="https://chain.nkit.dev"> Chain Reaction Game</a> </li>
+			<li> <a href="https://do.nkit.dev"> Digital Ocean Instance</a> </li>
+			<li> <a href="https://open.nkit.dev"> List all nkit.dev sites </a> (this page) </li>
+			<li> Access Instance through ssh at (port=22): ssh.nkit.dev </li>
+		</div>
+	</div>
+</body>
+
+</html>
